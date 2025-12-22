@@ -1,0 +1,29 @@
+[2025-10-10 18:49:39] [32minfo[39m: Navigated to login page
+[2025-10-10 18:50:11] [32minfo[39m: Navigated to login page
+[2025-10-10 18:50:13] [32minfo[39m: Login failed as expected with invalid credentials
+[2025-10-10 18:50:13] [32minfo[39m: Navigated to login page
+[2025-10-10 18:50:14] [32minfo[39m: Login failed as expected with empty username
+[2025-10-10 18:50:15] [32minfo[39m: Navigated to login page
+[2025-10-10 18:50:16] [32minfo[39m: Login failed as expected with empty password
+[2025-10-10 18:50:17] [32minfo[39m: Navigated to login page
+[2025-10-10 18:50:19] [32minfo[39m: Login failed as expected with incorrect password
+[2025-10-13 18:31:36] [32minfo[39m: Navigated to login page
+[2025-10-13 18:31:39] [32minfo[39m: Login successful, navigated to dashboard
+[2025-10-13 18:31:40] [32minfo[39m: Navigated to login page
+[2025-10-13 18:31:41] [32minfo[39m: Login failed as expected with invalid credentials
+[2025-10-13 18:31:42] [32minfo[39m: Navigated to login page
+[2025-10-13 18:31:43] [32minfo[39m: Login failed as expected with empty username
+[2025-10-13 18:31:44] [32minfo[39m: Navigated to login page
+[2025-10-13 18:31:44] [32minfo[39m: Login failed as expected with empty password
+[2025-10-13 18:31:45] [32minfo[39m: Navigated to login page
+[2025-10-13 18:31:47] [32minfo[39m: Login failed as expected with incorrect password
+[2025-10-27 10:53:57] [32minfo[39m: Navigated to login page
+[2025-10-27 10:54:10] [32minfo[39m: Login successful, navigated to dashboard
+[2025-10-27 10:54:15] [32minfo[39m: Navigated to login page
+[2025-10-27 10:54:19] [32minfo[39m: Login failed as expected with invalid credentials
+[2025-10-27 10:54:24] [32minfo[39m: Navigated to login page
+[2025-10-27 10:54:27] [32minfo[39m: Login failed as expected with empty username
+[2025-10-27 10:54:32] [32minfo[39m: Navigated to login page
+[2025-10-27 10:54:35] [32minfo[39m: Login failed as expected with empty password
+[2025-10-27 10:54:40] [32minfo[39m: Navigated to login page
+[2025-10-27 10:54:44] [32minfo[39m: Login failed as expected with incorrect password

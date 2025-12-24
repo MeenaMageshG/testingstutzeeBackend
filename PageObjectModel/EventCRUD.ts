@@ -87,7 +87,7 @@ export class OrganiserCRUD {
     await this.enddate.fill(endDate);
     await this.location.fill(location);
     await this.categorydropdown.click();
-    await this.page.getByText(category, { exact: true }).click();
+    await this.page.getByRole('option', { name: category }).click();
     await this.description.click();
     await this.page.keyboard.type(description);
     await this.clickaddbutton.click();

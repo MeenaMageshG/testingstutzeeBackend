@@ -12,6 +12,6 @@ export class WaitHelper {
   }
 
   async waitForElement(locator: Locator) {
-    await locator.waitFor({ state: 'visible', timeout: 25000 });
+    await locator.waitFor({ state: 'visible', timeout: 10000 });
   }
 }

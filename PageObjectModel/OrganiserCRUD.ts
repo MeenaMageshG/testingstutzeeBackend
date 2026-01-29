@@ -38,7 +38,7 @@ export class OrganiserPage {
     await this.addButton.click();
 
     const form = this.page.locator('div[role="dialog"]');
-  
+    await form.waitFor({ state: 'visible', timeout: 10000 });
 
     // Use label-based locators for reliability
     const nameInput = form.getByLabel('Name');

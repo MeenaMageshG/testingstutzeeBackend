@@ -8,7 +8,7 @@ test.describe('Organiser Events Flow', () => {
     organiserCRUD = new OrganiserCRUD(page);
 
     // Login
-    await organiserCRUD.login('admin@stutzee.com', '123456789'); // 🔹 Replace credentials
+    await organiserCRUD.login('admin@stutzee.com', '123456789'); 
   });
 
   test('Add a new Event', async ({ page }) => {

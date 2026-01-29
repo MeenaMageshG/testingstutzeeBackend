@@ -1,0 +1,202 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "open drawer" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - button "open profile" [ref=e10] [cursor=pointer]:
+          - generic [ref=e11]:
+            - img [ref=e12]
+            - generic [ref=e14]: "2"
+        - button "Fullscreen" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+        - button "settings toggler" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "open profile" [ref=e27] [cursor=pointer]:
+          - img "profile user" [ref=e29]
+    - navigation "mailbox folders" [ref=e30]:
+      - generic [ref=e31]:
+        - link "icon logo" [ref=e33] [cursor=pointer]:
+          - /url: /dashboard
+          - img "icon logo" [ref=e34]
+        - region "scrollable content" [ref=e40]:
+          - list [ref=e43]:
+            - link "Micro Site" [ref=e45] [cursor=pointer]:
+              - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/micro-site
+              - img [ref=e47]
+              - heading "Micro Site" [level=6] [ref=e51]
+            - button "Participant Types" [ref=e52] [cursor=pointer]:
+              - img [ref=e54]
+              - heading "Participant Types" [level=6] [ref=e57]
+              - img [ref=e59]
+            - button "Participants" [ref=e61] [cursor=pointer]:
+              - img [ref=e63]
+              - heading "Participants" [level=6] [ref=e67]
+              - img [ref=e69]
+            - button "Floor Maps" [ref=e71] [cursor=pointer]:
+              - img [ref=e73]
+              - heading "Floor Maps" [level=6] [ref=e78]
+              - img [ref=e80]
+            - button "Registration" [ref=e82] [cursor=pointer]:
+              - img [ref=e84]
+              - heading "Registration" [level=6] [ref=e87]
+              - img [ref=e89]
+            - button "Branding" [ref=e91] [cursor=pointer]:
+              - img [ref=e93]
+              - heading "Branding" [level=6] [ref=e97]
+              - img [ref=e99]
+            - link "Sessions" [ref=e102] [cursor=pointer]:
+              - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/sessions
+              - img [ref=e104]
+              - heading "Sessions" [level=6] [ref=e108]
+            - button "Session Engagement" [ref=e109] [cursor=pointer]:
+              - img [ref=e111]
+              - heading "Session Engagement" [level=6] [ref=e115]
+              - img [ref=e117]
+            - button "Tickets" [expanded] [ref=e119] [cursor=pointer]:
+              - img [ref=e121]
+              - heading "Tickets" [level=6] [ref=e125]
+              - img [ref=e127]
+            - list [ref=e132]:
+              - link "Manage Tickets" [ref=e134] [cursor=pointer]:
+                - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/tickets
+                - img [ref=e136]
+                - heading "Manage Tickets" [level=6] [ref=e140]
+              - link "Sales Report" [ref=e142] [cursor=pointer]:
+                - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/sales-report
+                - img [ref=e144]
+                - heading "Sales Report" [level=6] [ref=e148]
+              - link "Payments Report" [ref=e150] [cursor=pointer]:
+                - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/payments-report
+                - img [ref=e152]
+                - heading "Payments Report" [level=6] [ref=e155]
+              - link "Promo Discount" [ref=e157] [cursor=pointer]:
+                - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/promo-discount
+                - img [ref=e159]
+                - heading "Promo Discount" [level=6] [ref=e163]
+            - button "Notification" [ref=e164] [cursor=pointer]:
+              - img [ref=e166]
+              - heading "Notification" [level=6] [ref=e170]
+              - img [ref=e172]
+            - link "Check-in List" [ref=e175] [cursor=pointer]:
+              - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/check-in-list
+              - img [ref=e177]
+              - heading "Check-in List" [level=6] [ref=e181]
+            - link "Event Guide" [ref=e183] [cursor=pointer]:
+              - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/event-guide
+              - img [ref=e185]
+              - heading "Event Guide" [level=6] [ref=e189]
+            - link "Vendors" [ref=e191] [cursor=pointer]:
+              - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/vendors
+              - img [ref=e193]
+              - heading "Vendors" [level=6] [ref=e199]
+            - link "Itinerary" [ref=e201] [cursor=pointer]:
+              - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/itineraries
+              - img [ref=e203]
+              - heading "Itinerary" [level=6] [ref=e206]
+            - button "Budget Planner" [ref=e207] [cursor=pointer]:
+              - img [ref=e209]
+              - heading "Budget Planner" [level=6] [ref=e213]
+              - img [ref=e215]
+            - link "Support & Terms" [ref=e218] [cursor=pointer]:
+              - /url: /event/e0be57fd-bdc3-4ee0-80b9-940beabc3e39/support-terms
+              - img [ref=e220]
+              - heading "Support & Terms" [level=6] [ref=e224]
+    - main [ref=e225]:
+      - generic [ref=e227]:
+        - generic [ref=e229]:
+          - heading "Automation Test Event" [level=3] [ref=e231]:
+            - img [ref=e232] [cursor=pointer]
+            - text: Automation Test Event
+          - navigation "breadcrumb" [ref=e235]:
+            - list [ref=e236]:
+              - listitem [ref=e237]:
+                - link "Home" [ref=e238] [cursor=pointer]:
+                  - /url: /dashboard
+                  - paragraph [ref=e239]: Home
+              - listitem [ref=e240]:
+                - img [ref=e241]
+              - listitem [ref=e243]:
+                - link "Events" [ref=e244] [cursor=pointer]:
+                  - /url: /event
+                  - paragraph [ref=e245]: Events
+              - listitem [ref=e246]:
+                - img [ref=e247]
+              - listitem [ref=e249]:
+                - paragraph [ref=e250]: Automation Test Event
+        - generic [ref=e255]:
+          - generic [ref=e257]:
+            - heading "Tickets" [level=4] [ref=e258]
+            - generic [ref=e259]:
+              - generic [ref=e261]:
+                - textbox "Search tickets..." [ref=e262]
+                - group
+              - generic [ref=e263]:
+                - button "Expand All" [ref=e264] [cursor=pointer]
+                - button "Collapse All" [ref=e265] [cursor=pointer]
+              - button "Create Ticket" [active] [ref=e266] [cursor=pointer]:
+                - img [ref=e268]
+                - text: Create Ticket
+          - generic [ref=e271]:
+            - generic [ref=e272] [cursor=pointer]:
+              - generic [ref=e275]:
+                - button [ref=e276]:
+                  - img [ref=e277]
+                - heading "Test" [level=5] [ref=e279]
+                - paragraph [ref=e280]: (0 tickets)
+              - generic [ref=e282]:
+                - button "Download QR" [ref=e283]:
+                  - img [ref=e285]
+                  - text: Download QR
+                - button "Create" [ref=e287]:
+                  - img [ref=e289]
+                  - text: Create
+                - button "Kiosk" [ref=e291]:
+                  - img [ref=e293]
+                  - text: Kiosk
+                - button "View" [ref=e295]:
+                  - img [ref=e297]
+                  - text: View
+                - button "Edit" [ref=e300]:
+                  - img [ref=e302]
+                  - text: Edit
+                - button "Delete" [ref=e306]:
+                  - img [ref=e308]
+                  - text: Delete
+            - separator [ref=e310]
+          - generic [ref=e313]:
+            - generic [ref=e314] [cursor=pointer]:
+              - generic [ref=e317]:
+                - button [ref=e318]:
+                  - img [ref=e319]
+                - heading "Test" [level=5] [ref=e321]
+                - paragraph [ref=e322]: (0 tickets)
+              - generic [ref=e324]:
+                - button "Download QR" [ref=e325]:
+                  - img [ref=e327]
+                  - text: Download QR
+                - button "Create" [ref=e329]:
+                  - img [ref=e331]
+                  - text: Create
+                - button "Kiosk" [ref=e333]:
+                  - img [ref=e335]
+                  - text: Kiosk
+                - button "View" [ref=e337]:
+                  - img [ref=e339]
+                  - text: View
+                - button "Edit" [ref=e342]:
+                  - img [ref=e344]
+                  - text: Edit
+                - button "Delete" [ref=e348]:
+                  - img [ref=e350]
+                  - text: Delete
+            - separator [ref=e352]
+        - generic [ref=e355]:
+          - text: © Stutzee crafted with ♥ by Team
+          - link "Sumanas Technologies" [ref=e356] [cursor=pointer]:
+            - /url: https://sumanastech.com
+```

@@ -22,7 +22,7 @@ export class OrganiserCRUD {
   readonly location: Locator;
   readonly categorydropdown: Locator;
   readonly categoryoption: Locator;
-    readonly description: Locator;
+  readonly description: Locator;
   readonly clickaddbutton: Locator;
   readonly editbutton: Locator;
   readonly updatebutton: Locator;
